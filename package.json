@@ -1,0 +1,27 @@
+{
+  "name": "webpack-karma-mocha",
+  "version": "1.0.0",
+  "description": "webpack+karma+mocha+es6 前端单元测试组合",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xwartz/webpack-karma-mocha.git"
+  },
+  "keywords": [
+    "webpack",
+    "karma",
+    "mocha",
+    "es6",
+    "unit",
+    "test"
+  ],
+  "author": "xwartz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xwartz/webpack-karma-mocha/issues"
+  },
+  "homepage": "https://github.com/xwartz/webpack-karma-mocha#readme"
+}
