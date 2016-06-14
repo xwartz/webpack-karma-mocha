@@ -1,4 +1,4 @@
-# webpack-karma-mocha
+# webpack-karma-mocha  [![Build Status](https://travis-ci.org/xwartz/webpack-karma-mocha.svg?branch=master)](https://travis-ci.org/xwartz/webpack-karma-mocha)
 
 webpack + karma + mocha + es6 前端单元测试组合
 
