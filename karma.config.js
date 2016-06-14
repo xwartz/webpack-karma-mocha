@@ -22,7 +22,7 @@ module.exports = function (config) {
       'karma-coverage',
       'karma-webpack',
       'karma-mocha',
-      'karma-chai',
+      // 'karma-chai',
       'karma-phantomjs-launcher',
       'karma-sourcemap-loader',
       'karma-mocha-reporter'

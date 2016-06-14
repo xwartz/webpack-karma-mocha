@@ -10,13 +10,13 @@ export default {
     }],
     postLoaders: [{
       test: /\.js$/,
-      exclude: /test|node_modules/,
+      exclude: /test\/|node_modules/,
       loaders: ['istanbul-instrumenter']
     }]
   },
   resolve: {
     alias: {
-      src: path.join(__dirname, 'src')
+      utils: path.join(__dirname, 'src/utils')
     }
   }
 }
