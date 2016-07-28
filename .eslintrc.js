@@ -8,5 +8,8 @@ module.exports = {
     "browser": true,
     "mocha": true,
     "node": true
+  },
+  "globals": {
+    "expect": true
   }
 }
