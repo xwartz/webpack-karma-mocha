@@ -2,7 +2,7 @@ import webpackConfig from './webpack.config'
 
 module.exports = function (config) {
   config.set({
-    frameworks: ['mocha'],
+    frameworks: ['mocha', 'chai'],
 
     files: [
       'test/**/*.js'
@@ -22,7 +22,7 @@ module.exports = function (config) {
       'karma-coverage',
       'karma-webpack',
       'karma-mocha',
-      // 'karma-chai',
+      'karma-chai',
       'karma-phantomjs-launcher',
       'karma-sourcemap-loader',
       'karma-mocha-reporter'
